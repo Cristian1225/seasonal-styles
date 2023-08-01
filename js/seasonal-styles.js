@@ -13,39 +13,44 @@ $("document").ready(function(){
                 $("#wear").attr("src","images/spring-wear.jpg");
                 $("#logo").attr("src","images/spring.gif");
             break;
-        }
+        
 
 
-        switch(season){
+        
             case "summer":
                 $("html").css("background-color","#EBA52B");
                 $("#slogan").text("Dont We love Summer Wear!");
                 $("#wear").attr("src","images/summer-wear.jpg");
                 $("#logo").attr("src","images/summer.gif");
             break;
-        }
+       
 
 
-
-        switch(season){
+       
             case "fall":
                 $("html").css("background-color","#A81124");
                 $("#slogan").text("Lovely fall wear!");
                 $("#wear").attr("src","images/fall-wear.jpg");
                 $("#logo").attr("src","images/fall.gif");
             break;
-        }
+       
 
-
-        switch(season){
+       
             case "winter":
                 $("html").css("background-color","#005393");
                 $("#slogan").text("Having a jolly cozy wear!");
                 $("#wear").attr("src","images/winter-wear.jpg");
                 $("#logo").attr("src","images/winter.gif");
             break;
-        }        
 
+
+            default:
+                $("html").css("background-color","#005393");
+                $("#slogan").text("Please Click on another season!");
+                $("#wear").attr("src","images/300x400.png");
+                $("#logo").attr("src","images/four-seasons.gif");
+              
+        }
         
 
     });
