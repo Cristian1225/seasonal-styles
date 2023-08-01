@@ -41,20 +41,12 @@ $("document").ready(function(){
             case "winter":
                 $("html").css("background-color","#005393");
                 $("#slogan").text("Having a jolly cozy wear!");
-                $("#wear").attr("src","images/fall-wear.jpg");
-                $("#logo").attr("src","images/fall.gif");
-            break;
-        }
-
-
-        switch(season){
-            case "winter":
-                $("html").css("background-color","#005393");
-                $("#slogan").text("Having a jolly cozy wear!");
                 $("#wear").attr("src","images/winter-wear.jpg");
                 $("#logo").attr("src","images/winter.gif");
             break;
         }        
+
+        
 
     });
 });
